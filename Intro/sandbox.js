@@ -55,3 +55,17 @@ do {
   console.log("the b is equal to " + b);
   b++;
 } while (b < 5);
+let c = [5, 20, 10, 0, 70, 100, 20];
+for (let i = 0; i < c.length; i++) {
+  if (c[i] === 0) {
+    console.log("What is that 0 score?");
+    continue;
+  }
+
+  console.log("Your score is equal to " + c[i]);
+
+  if (c[i] === 100) {
+    console.log("You got perfect score");
+    break;
+  }
+}
