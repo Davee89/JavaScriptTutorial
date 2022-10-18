@@ -43,4 +43,15 @@ score = String(score);
 score = "s";
 score = Boolean(score);
 console.log(score + 1, typeof score);
-// ? NEXT VIDEO ? //
+// ? NEXT VIDEO -  CONTROL FLOW ? //
+let names = ["shaun", "ken", "david", "ash"];
+for (let i = 0; i < names.length; i++) {
+  let html2 = `<div>${names[i]}</div>`;
+  console.log(html2);
+}
+// * Next Lesson * //
+let b = 6;
+do {
+  console.log("the b is equal to " + b);
+  b++;
+} while (b < 5);
