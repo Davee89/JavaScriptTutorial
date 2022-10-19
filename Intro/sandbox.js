@@ -69,7 +69,7 @@ for (let i = 0; i < c.length; i++) {
     break;
   }
 }
-// ***** NEX Lesson ******* //
+// ***** NEXT Lesson ******* //
 let d = "B";
 switch (d) {
   case "A":
@@ -90,3 +90,11 @@ switch (d) {
   default:
     console.log("you got nothing good");
 }
+// *****?  NEXT VIDEO FUNCTIONS ******* //
+// const calcArea = function (radius) {
+//    return 3.14 * radius ** 2;
+// };
+// ! Arrow function //
+const calcArea = (radius) => 3.14 * radius ** 2;
+const area = calcArea(5);
+console.log(area);
