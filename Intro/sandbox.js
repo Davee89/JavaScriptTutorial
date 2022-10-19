@@ -124,3 +124,22 @@ let people = ["mario", "ted", "ken", "lee"];
 people.forEach((fred, friend) => {
   console.log(fred, friend);
 });
+// ? OBJECTS //
+const par2a = document.querySelector("p");
+console.log(par2a);
+
+const para2s = document.querySelectorAll("div");
+console.log(para2s);
+
+const paras = document.querySelectorAll("p");
+
+paras.forEach((paragraph, index) => {
+  if (paragraph.textContent.includes("error")) {
+    paragraph.classList.add("error");
+  }
+  if (paragraph.textContent.includes("succes")) {
+    paragraph.classList.add("succes");
+  } else {
+    console.log(`no class added to paragraph number: ${index}`);
+  }
+});
